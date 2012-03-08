@@ -1,5 +1,6 @@
 module.exports = class CSSCompiler
-  compilerType: 'stylesheet'
+  brunchPlugin: yes
+  type: 'stylesheet'
   extension: 'css'
 
   constructor: (@config) ->
