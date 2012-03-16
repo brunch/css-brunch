@@ -1,2 +1,2 @@
-## css-brunch 1.0.0 (unreleased)
+## css-brunch 1.0.0 (March 14, 2012)
 * Initial release
