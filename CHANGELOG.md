@@ -1,3 +1,6 @@
+# css-brunch 1.6.0 (22 June 2013)
+* Improved installation
+
 # css-brunch 1.5.1 (19 March 2013)
 * Added node 0.10 support, removed coffee-script dependency.
 
