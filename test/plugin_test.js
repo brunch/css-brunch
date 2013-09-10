@@ -17,9 +17,10 @@ describe('Plugin', function() {
     var content = '#id {color: #6b0;}';
     var expected = '#id {color: #6b0;}';
 
-    plugin.compile(content, 'file.css', function(error, data) {
+    plugin.compile({data: content, path: 'file.css'}, function(error, result) {
+      var data = result.data;
       expect(error).not.to.be.ok;
-      expect(data).to.equal(expected)
+      expect(data).to.equal(expected);
       done();
     });
   });

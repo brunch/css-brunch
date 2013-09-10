@@ -6,5 +6,5 @@ module.exports = class CSSCompiler
   constructor: (@config) ->
     null
 
-  compile: (data, path, callback) ->
-    callback null, data
+  compile: (params, callback) ->
+    callback null, params
