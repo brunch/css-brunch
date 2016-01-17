@@ -20,11 +20,10 @@ describe('Plugin', function() {
     var content = '#id {color: #6b0;}';
     var expected = '#id {color: #6b0;}';
 
-    plugin.compile({data: content, path: 'file.css'}, function(error, result) {
+    plugin.compile({data: content, path: 'file.css'}).then(result => {
       var data = result.data;
-      expect(error).not.to.be.ok;
       expect(data).to.equal(expected);
       done();
-    });
+    }, error => expect(error).not.to.be.ok);
   });
 });
