@@ -17,9 +17,10 @@ class CSSCompiler {
   constructor(cfg) {
     if (cfg == null) cfg = {};
     this.config = cfg.plugins && cfg.plugins.css || {};
+    this.modules = !!(this.config.modules || this.config.cssModules);
   }
   compile(params) {
-    if (this.config.cssModules) {
+    if (this.modules) {
       return cssModulify(params.path, params.data, params.map);
     } else {
       return Promise.resolve(params);
