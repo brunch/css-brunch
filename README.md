@@ -19,7 +19,7 @@ module.exports = {
   // ...
   plugins: {
     css: {
-      cssModules: true
+      modules: true
     }
   }
 };
