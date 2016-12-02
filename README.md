@@ -2,7 +2,7 @@
 Adds CSS support to [brunch](http://brunch.io).
 
 ## Usage
-Install the plugin via npm with `npm install --save css-brunch`.
+Install the plugin via npm with `npm install --save-dev css-brunch`.
 
 Or, do manual install:
 
