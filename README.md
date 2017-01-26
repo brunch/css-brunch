@@ -1,20 +1,22 @@
-## css-brunch
+# css-brunch
+
 Adds CSS support to [brunch](http://brunch.io).
 
 ## Usage
+
 Install the plugin via npm with `npm install --save-dev css-brunch`.
 
 Or, do manual install:
 
-* Add `"css-brunch": "x.y.z"` to `package.json` of your brunch app.
-  Pick a plugin version that corresponds to your minor (y) brunch version.
+* Add `"css-brunch": "x.y.z"` to `package.json` of your brunch app. Pick a plugin version that corresponds to your minor (y) brunch version.
 * If you want to use git version of plugin, add
 `"css-brunch": "git+ssh://git@github.com:brunch/css-brunch.git"`.
 
 ### CSS Modules
+
 Starting Brunch `<unreleased>`, you can use CSS Modules with css-brunch. To enable it, change your config to:
 
-```javascript
+```js
 module.exports = {
   // ...
   plugins: {
@@ -25,10 +27,9 @@ module.exports = {
 };
 ```
 
-You can also pass options directly to
-[postcss-modules](https://github.com/css-modules/postcss-modules):
+You can also pass options directly to [postcss-modules](https://github.com/css-modules/postcss-modules):
 
-```javascript
+```js
 module.exports = {
   // ...
   plugins: {
@@ -51,7 +52,7 @@ Then, author your styles like you normally would:
 
 And reference CSS class names by requiring the specific style into your javascript:
 
-```javascript
+```js
 var style = require('./title.css');
 
 <h1 className={style.title}>Yo</h1>
@@ -63,7 +64,7 @@ Note: enabling `cssModules` does so for every stylesheet in your project, so it'
 
 The MIT License (MIT)
 
-Copyright (c) 2012-2013 Paul Miller (http://paulmillr.com)
+Copyright (c) 2012-2017 Paul Miller (http://paulmillr.com)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
