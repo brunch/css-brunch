@@ -1,6 +1,6 @@
 > ## 🚧 This Plugin Is Deprecated 🚧
 
-> This plugin is deprecated in favor of built-in possibilities of [Brunch] (since `2.10`), which can handle CSS automatically. We recommend to remove it from `package.json`. For css-modules use [postcss-brunch].
+> This plugin is deprecated in favor of built-in possibilities of Brunch (since `2.10`), which can handle CSS automatically. We recommend to remove it from `package.json`. For CSS modules please use [postcss-brunch].
 
 # css-brunch
 
