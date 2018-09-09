@@ -1,10 +1,10 @@
 > ## 🚧 This Plugin Is Deprecated 🚧
 
-> This plugin is deprecated in favor of built-in possibilities of Brunch (since `2.10`), which can handle CSS automatically. We recommend to remove it from `package.json`. For CSS modules please use [postcss-brunch].
+> This plugin is deprecated in favor of built-in possibilities of [Brunch] (since `2.10`), which can handle CSS automatically. We recommend to remove it from `package.json`. For CSS modules please use [postcss-brunch].
 
 # css-brunch
 
-Adds CSS support to [Brunch](http://brunch.io).
+Adds CSS support to [Brunch].
 
 ## Usage
 
@@ -90,4 +90,5 @@ THE SOFTWARE.
 
 <!-- References -->
 
+[Brunch]: http://brunch.io
 [postcss-brunch]: https://github.com/brunch/postcss-brunch
